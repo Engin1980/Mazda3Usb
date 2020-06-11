@@ -8,7 +8,7 @@ Simple application to order folders and files on the USB flash drive to be viewe
 # Examples
 ## Before
 
-(before.jpg)
+!(before.jpg)
 ## After
 
 after.jpg
