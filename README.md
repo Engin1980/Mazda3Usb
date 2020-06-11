@@ -13,4 +13,4 @@ Simple application to order folders and files on the USB flash drive to be viewe
 ![](after.jpg)
 
 ## Application main (and the only) page
-![](app.png)
+![](app.jpg)
