@@ -1,0 +1,18 @@
+﻿<Window x:Class="ENG.Mazda3usb.Win.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Mazda3 USB Folder Reorder" Height="210" Width="537" FontFamily="Verdana">
+  <Window.Background>
+    <ImageBrush ImageSource="Resources\main.jpg" />
+  </Window.Background>
+    <Grid>
+    <Label Content="Folder:" Height="28" HorizontalAlignment="Left" Margin="12,7,0,0" Name="label1" VerticalAlignment="Top" Width="62" Foreground="White" />
+    <TextBox Height="23" HorizontalAlignment="Left" Margin="80,9,0,0" Name="txtFolder" VerticalAlignment="Top" Width="342" TextChanged="txtFolder_TextChanged" />
+    <Button Content="(browse)" Height="23" HorizontalAlignment="Left" Margin="428,9,0,0" Name="btnBrowse" VerticalAlignment="Top" Width="75" Click="btnBrowse_Click" />
+    <CheckBox Content="Process folders" Height="16" HorizontalAlignment="Left" Margin="80,38,0,0" Name="chkProcessFolders" VerticalAlignment="Top" Width="301" IsChecked="True" Foreground="White" />
+    <CheckBox Content="Process files" Height="16" HorizontalAlignment="Left" Margin="80,60,0,0" Name="chkProcessFiles" VerticalAlignment="Top" Width="301" Foreground="White" />
+    <CheckBox Content="Look recursive in folders" Height="16" HorizontalAlignment="Left" Margin="80,82,0,0" Name="chkRecursiveFolders" VerticalAlignment="Top" Width="301" Foreground="White" />
+    <CheckBox Content="Use stored hash data (will skip unchanged folders)" Height="16" HorizontalAlignment="Left" Margin="80,104,0,0" Name="chkUseHash" VerticalAlignment="Top" Width="342" Foreground="White" />
+    <Button Content="Start" Height="29" HorizontalAlignment="Left" Margin="80,130,0,0" Name="btnGo" VerticalAlignment="Top" Width="342" Click="btnGo_Click" />
+  </Grid>
+</Window>

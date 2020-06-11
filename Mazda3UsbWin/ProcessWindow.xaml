@@ -1,0 +1,8 @@
+﻿<Window x:Class="ENG.Mazda3usb.Win.ProcessWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ProcessWindow" Height="363" Width="641" Closed="Window_Closed">
+    <Grid>
+    <ListBox Margin="10,10,10,10" Name="lst" Width="auto" Height="auto" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" ></ListBox>
+  </Grid>
+</Window>
