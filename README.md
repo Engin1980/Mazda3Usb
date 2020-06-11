@@ -11,7 +11,7 @@ Simple application to order folders and files on the USB flash drive to be viewe
 !(before.jpg)
 ## After
 
-after.jpg
+!(https://raw.githubusercontent.com/Engin1980/Mazda3Usb/master/before.jpg)
 ## Application main (and the only) page
 
 app.png
